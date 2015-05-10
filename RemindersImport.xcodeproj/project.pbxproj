@@ -10,6 +10,7 @@
 		65B462CD16B9FE47006987B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B462CC16B9FE47006987B3 /* Foundation.framework */; };
 		65B462D016B9FE47006987B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B462CF16B9FE47006987B3 /* main.m */; };
 		65B462DD16B9FF24006987B3 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B462DC16B9FF24006987B3 /* EventKit.framework */; };
+		B5106B391B000F56002F0714 /* RemindersImport in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65B462C916B9FE47006987B3 /* RemindersImport */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -21,6 +22,16 @@
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B5106B381B000F4F002F0714 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "/Users/barrettjacobsen/BitTorrent Sync/BTSync/Scripts/RemindersImport";
+			dstSubfolderSpec = 0;
+			files = (
+				B5106B391B000F56002F0714 /* RemindersImport in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -92,6 +103,7 @@
 				65B462C516B9FE47006987B3 /* Sources */,
 				65B462C616B9FE47006987B3 /* Frameworks */,
 				65B462C716B9FE47006987B3 /* CopyFiles */,
+				B5106B381B000F4F002F0714 /* CopyFiles */,
 			);
 			buildRules = (
 			);
