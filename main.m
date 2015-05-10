@@ -12,7 +12,7 @@
 NSArray* importableReminderItems(EKEventStore* theEventStore)
 {
 	NSMutableArray* qualifiedItems = [NSMutableArray array];
-	NSString* remindersListName = @"Reminders";
+	NSString* remindersListName = @"Barrett's Reminders";
 	if ([[[NSProcessInfo processInfo] arguments] count] < 2)
 	{
 		NSLog(@"No Reminders list name specified, defaulting to \"%@\"", remindersListName);
