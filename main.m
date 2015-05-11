@@ -56,7 +56,12 @@ NSArray* importableReminderItems(EKEventStore* theEventStore)
 				}
 			}
 
-			if (hasLocationBasedAlarm == NO)
+            //if (hasLocationBasedAlarm == NO)
+
+            
+            // Barrett - only pick up reminders with no alarms until Omnifocus has some sort of better sync or we switch to Due or something
+            // otherwise if the reminder has an alarm it might be deleted from Reminders but not yet actually synced to Omnifocus on my phone or what not
+            if ([thisReminder alarms].count == 0)
 			{
 				[qualifiedItems addObject:thisReminder];
 			}
